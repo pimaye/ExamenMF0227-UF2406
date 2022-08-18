@@ -2,6 +2,17 @@ package funciones;
 
 public class Utilidades {
 
+	/**
+	 * Función que dada la nota del alumno/a nos dice si está Suspenso,
+	 * Bien, Notable o Sobresaliente.
+	 * @param nota: double con la nota del alumno/a.
+	 * @return String con la descripción que ha sacado el alumno/a según su nota.
+	 * Esta descripción puede ser: 
+	 * -Nota menos de 5:Suspenso
+	 * -Nota entre 5 y menos de 6.5:Bien
+	 * -Nota entre 6.5 y menos de 8.5:Notable
+	 * -Nota menos de 10:Sobresaliente
+	 */
 	
 
 	public String devuelveNota(double nota) {
